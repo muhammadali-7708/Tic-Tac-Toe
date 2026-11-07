@@ -3,7 +3,6 @@
 
 [![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/Platform-Console-black?style=for-the-badge)](https://github.com/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 A classic 2-player Tic-Tac-Toe game built in **C++** for the terminal/console. Play locally against a friend, featuring clean board rendering, input validation, and win/draw detection!
 
