@@ -21,7 +21,7 @@ A classic 2-player Tic-Tac-Toe game built in **C++** for the terminal/console. P
 ## 🎮 How to Play
 
 1. The game is played on a standard **3x3 grid**.
-2. **Player 1** plays as `X` and **Player 2** plays as `O`.
+2. **Player 1** plays as `X` (or the symbol he desires) and **Player 2** plays as `O`(or the symbol he desires).
 3. Players take turns selecting a position (1–9) on the board.
 4. First player to align 3 of their symbols horizontally, vertically, or diagonally wins!
 
