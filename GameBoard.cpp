@@ -94,9 +94,17 @@ void GameBoard::displayBoard()
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			cout << data[i][j] << '\t';
+			cout << " " << data[i][j] << " ";
+			if (j < 2)
+			{
+				cout << "|";
+			}
 		}
 		cout << '\n';
+		if (i < 2)
+		{
+			cout << "---|---|---\n";
+		}
 	}
 }
 
