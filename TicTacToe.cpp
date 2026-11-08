@@ -8,9 +8,9 @@ bool TicTacToe::isValidSymbol(char symbol)
 {
 	if (symbol >= '1' && symbol <= '9')
 	{
-		return false;
+		return true;
 	}
-	return true;
+	return false;
 }
 void TicTacToe::playGame()
 {
@@ -23,14 +23,14 @@ void TicTacToe::playGame()
 	{
 		cout << "Enter player 1 Symbol: ";
 		cin >> player1Symbol;
-	} while (!isValidSymbol(player1Symbol));
+	} while (isValidSymbol(player1Symbol));
 	
 	symbol = player1Symbol;
 	do
 	{
 		cout << "Enter player 2 Symbol: ";
 		cin >> player2Symbol;
-	} while ((!isValidSymbol(player2Symbol)) || (player2Symbol == player1Symbol));
+	} while ((isValidSymbol(player2Symbol)) || (player2Symbol == player1Symbol));
 
 	cout << '\n';
 	board.displayBoard();
